@@ -40,7 +40,7 @@ async function handleRequest(request) {
     }
 
     const maxHorizontalImageNumber = 9; // 横屏
-    const maxVerticalImageNumber = 8; // 竖屏
+    const maxVerticalImageNumber = 10; // 竖屏
 
     if (imgType === 'h') {  // 横屏
       // 生成1到maxHorizontalImageNumber之间的随机数
